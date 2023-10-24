@@ -6,7 +6,7 @@ Welcome to the "Guess the Number" game!
 
 ## About the Game
 
-This is a simple number guessing game where the player is asked to guess a number between 1 and 100. The player has 3 attempts to guess the correct number. After each guess, the game will provide feedback on whether the guess was correct, too low, or too high.
+This is a simple number guessing game where the player is asked to guess a number between 1 and 100. The player has 3 attempts to guess the correct number. After each guess, the game will provide feedback on whether the guess was correct.
 
 ## How to Play
 
