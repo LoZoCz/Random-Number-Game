@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  @apply text-white bg-slate-900;
+
+  #root {
+    width: 45rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+    gap: 2rem;
+    @apply bg-slate-800 rounded-2xl;
+
+    .sect {
+      @apply flex flex-col gap-8 justify-center;
+    }
+
+    .btn {
+      @apply bg-slate-600 w-fit rounded-sm p-2;
+    }
+
+    .inactiveBtn {
+      @apply bg-slate-400 text-slate-800 pointer-events-none;
+    }
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
