@@ -1,27 +1,70 @@
-# React + TypeScript + Vite
+# Guess the Number Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the "Guess the Number" game!
 
-Currently, two official plugins are available:
+![Screenshot](screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About the Game
 
-## Expanding the ESLint configuration
+This is a simple number guessing game where the player is asked to guess a number between 1 and 100. The player has 3 attempts to guess the correct number. After each guess, the game will provide feedback on whether the guess was correct, too low, or too high.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## How to Play
 
-- Configure the top-level `parserOptions` property like this:
+1. Enter your guess in the input field.
+2. Click the "Guess" button to submit your guess.
+3. You will receive feedback on your guess.
+4. Keep guessing until you either guess the correct number or run out of attempts.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## Features
+
+- Randomly generated number for each game.
+- Limited attempts (3 tries).
+- Feedback on each guess.
+- Option to play again after completing the game.
+
+## Technologies Used
+
+- React
+- TypeScript
+- CSS (SCSS)
+- Tailwind CSS
+
+## Getting Started
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/your-username/guess-the-number.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Change into the project directory:
+
+```bash
+cd guess-the-number
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open your browser and visit http://localhost:3000 to play the game.
+
+## License
+
+This project is open-source and available under the MIT License.
+
+## Author
+
+M. _LoZoCz_ Czernik
+
+GitHub: [LoZoCz](https://github.com/LoZoCz)
+
+### Feel free to contribute to this project or report any issues. Enjoy the game!
